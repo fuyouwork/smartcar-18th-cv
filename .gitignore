@@ -1,0 +1,39 @@
+# ---- Keil MDK 编译中间文件与产物 ----
+project/mdk/Objects/
+project/mdk/Listings/
+*.o
+*.obj
+*.d
+*.dep
+*.crf
+*.axf
+*.hex
+*.bin
+*.lnp
+*.map
+*.htm
+*.iex
+*.sct
+*.o.d
+*.uvguix.*
+
+# ---- IAR ----
+project/iar/**/Debug/
+project/iar/**/Release/
+project/iar/**/settings/
+*.ewt
+*.ewp.bak
+
+# ---- 编辑器 / 系统 ----
+.vscode/*.log
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ---- 有版权的参考文献，不随仓库分发 ----
+*.pdf
+# Keil assistant / build logs
+*.log
+*.log.lock
+project/mdk/ini/
+

@@ -1,0 +1,35 @@
+#ifndef __USER_CODE_CPP_HPP
+#define __USER_CODE_CPP_HPP
+
+#include "connection.hpp"
+#include "omnidirect.hpp"
+#include "pid.hpp"
+#include "key.hpp"
+#include "uart.hpp"
+#include "thread.hpp"
+#include "flash.hpp"
+#include "test.hpp"
+#include "motor.hpp"
+#include "servo.hpp"
+#include "sys_init.hpp"
+#include "encoder.hpp"
+#include "servo.hpp"
+#include "isr.h"
+#include "usr_common.hpp"
+#include "tft180.hpp"
+#include "point_task.hpp"
+#include "collect_task.hpp"
+#include "category_task.hpp"
+#include "center_task.hpp"
+#include "side_task.hpp"
+#include "carport_task.hpp"
+#include "audio_side_task.hpp"
+#include "cammera_callback.hpp"
+#include "path_plan.hpp"
+#include "test_param.hpp"
+#include "rotary_table_task.hpp"
+#include "collect_task.hpp"
+#include "scan_line_task.hpp"
+
+#endif
+
